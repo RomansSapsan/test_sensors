@@ -9,9 +9,11 @@ Docker Image components:
 
 ## Running the environment
 
+- Rename file "copy.env" and "copy.gitignore" to ".env" and ".gitignore" 
+  
 - Set the MySQL environment variables in `.env` file (or just leave as is). 
   You only will need to <b>set up your local virtual IP address in .env file (IPv4)</b>.
-  It was the easyest way how to let Docker work with local routes.
+  It was the easyest way how to let Docker work with local API routes.
 
 - Build the app image with the following command (docker-compose must be installed first):
 
